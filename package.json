@@ -1,5 +1,5 @@
 {
-  "name": "react-force-graph",
+  "name": "@sumedh/react-force-graph",
   "version": "1.41.5",
   "description": "React component for 2D force directed graphs",
   "license": "MIT",
