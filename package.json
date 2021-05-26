@@ -1,6 +1,6 @@
 {
-  "name": "@sumedh/react-force-graph",
-  "version": "1.41.5",
+  "name": "@sumedhtare/react-force-graph",
+  "version": "1.0.0",
   "description": "React component for 2D force directed graphs",
   "license": "MIT",
   "unpkg": "dist/react-force-graph.min.js",
@@ -17,8 +17,6 @@
     "force",
     "graph",
     "2d",
-    "vr",
-    "ar",
     "three",
     "webgl",
     "canvas"
