@@ -1,7 +1,7 @@
 {
   "name": "react-force-graph",
   "version": "1.41.5",
-  "description": "React component for 2D, 3D, VR and AR force directed graphs",
+  "description": "React component for 2D force directed graphs",
   "license": "MIT",
   "unpkg": "dist/react-force-graph.min.js",
   "main": "dist/react-force-graph.common.js",
@@ -9,14 +9,13 @@
   "types": "dist/react-force-graph.d.ts",
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/vasturiano/react-force-graph.git"
+    "url": "git+https://github.com/sumedhtare/react-force-graph.git"
   },
-  "homepage": "https://github.com/vasturiano/react-force-graph",
+  "homepage": "https://github.com/sumedhtare/react-force-graph",
   "keywords": [
     "react",
     "force",
     "graph",
-    "3d",
     "2d",
     "vr",
     "ar",
@@ -25,11 +24,11 @@
     "canvas"
   ],
   "author": {
-    "name": "Vasco Asturiano",
-    "url": "http://bl.ocks.org/vasturiano"
+    "name": "Sumedh Tare",
+    "url": "http://bl.ocks.org/sumedhtare"
   },
   "bugs": {
-    "url": "https://github.com/vasturiano/react-force-graph/issues"
+    "url": "https://github.com/sumedhtare/react-force-graph/issues"
   },
   "scripts": {
     "build": "rimraf dist && rollup -c",
@@ -40,9 +39,6 @@
     "dist/**/*"
   ],
   "dependencies": {
-    "3d-force-graph": "^1.70.1",
-    "3d-force-graph-ar": "^1.7.0",
-    "3d-force-graph-vr": "^2.0.5",
     "force-graph": "^1.41.1",
     "prop-types": "^15.7.2",
     "react-kapsule": "^2.2.2"
